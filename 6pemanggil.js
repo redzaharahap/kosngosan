@@ -25,7 +25,7 @@ if(x=="1"){xxx="/p/claim-life-insurance.html"}
 if(x=="2"){xxx="/p/donate-and-credit.html"}
 if(x=="3"){xxx="/p/healthy-and-entertainment.html"}
 if(x=="4"){xxx="/p/car-and-automotive.html"}
-if(x=="5"){xxx="/p/business-and-law.html"}a_to_ve[i].href="http://kongosan.blogspot.com"+xxx+"?url="+ encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+ a_to_ve[i].href+"\n";}}
+if(x=="5"){xxx="/p/business-and-law.html"}a_to_ve[i].href="https://kongosan.blogspot.com"+xxx+"?url="+ encryptedUrl;a_to_ve[i].rel="nofollow";a_to_vb++;a_to_vc+=i+":::"+ a_to_ve[i].href+"\n";}}
 var a_to_vj=document.getElementById("anonyminized");var a_to_vk=document.getElementById("found_links");if(a_to_vj)
 {a_to_vj.innerHTML+=a_to_vb;}
 if(a_to_vk)
