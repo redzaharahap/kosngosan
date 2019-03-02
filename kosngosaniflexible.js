@@ -5,8 +5,6 @@ null==d?void 0:d))},attrHooks:{type:{set:function(a,b){if(!o.radioValue&&"radio"
 
 (function() { var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.src = 'https://apis.google.com/js/platform.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s); })();
 
-$(function(){if($("#sidebar-wrapper").length){var s=$("#sidebar-wrapper"),i=$("#sidebar-wrapper").offset().top,e=$("#sidebar-wrapper").height();$(window).scroll(function(){var r=$("#footer-wrapper").offset().top-e-20,o=$(window).scrollTop();if(o>i?(s.css({position:"fixed",top:"70px"}),s.addClass("sticky_widget")):(s.css("position","static"),s.removeClass("sticky_widget")),o>r){var t=r-o;s.css({top:t}),s.removeClass("sticky_widget")}})}});
-
 function openSosprofil(){var e=document.getElementById("search-box");"block"!==e.style.display?e.style.display="block":e.style.display="none";var e=document.getElementById("close-icon");"block"!==e.style.display?e.style.display="block":e.style.display="none";var e=document.getElementById("search-icon");"none"!==e.style.display?e.style.display="none":e.style.display="block"};
 
 function openMobilemenu(){var e=document.getElementById("mobile-menu-nav");"block"!==e.style.display?e.style.display="block":e.style.display="none"};
